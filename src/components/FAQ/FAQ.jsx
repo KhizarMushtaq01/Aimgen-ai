@@ -32,7 +32,7 @@ const FAQ = () => {
           <div className="faq2">
             <div className="get">Get the</div>
             <div className="get">
-              <span className="Gradient-faq">Informationss </span> You
+              <span className="Gradient-faq">Information </span> You
             </div>
             <div className="get">Need</div>
             <p className="faqpara">
