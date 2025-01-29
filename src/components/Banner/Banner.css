@@ -1,0 +1,57 @@
+.main1 {
+  background-color: rgb(27, 26, 26);
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+}
+.banner {
+  background-color: rgb(27, 26, 26);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Inside auto layout */
+  flex: none;
+  order: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner {
+  color: rgb(128, 123, 123);
+  font-size: 15px;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.partnerlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 35px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .partnerlist {
+    font-size: large;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .partnerlist {
+    font-size: medium;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and(min-width: 250px) and (max-width: 500px) {
+  .partnerlist {
+    font-size: small;
+    flex-wrap: wrap;
+  }
+}

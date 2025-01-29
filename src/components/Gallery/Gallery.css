@@ -1,0 +1,263 @@
+.efficient {
+  color: white;
+  font-size: 40px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.combine2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  font-family: "Inter", sans-serif;
+}
+
+.input3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: rgb(27, 26, 26);
+}
+
+.input4 {
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(27, 26, 26);
+  color: white;
+}
+
+.generate-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 30%;
+
+}
+
+.gradient-gallery {
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Inside auto layout */
+  font-size: 45px;
+}
+
+.galleryimgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.img1 {
+  height: 220px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  border-radius: 10px;
+}
+
+.img2 {
+  height: 180px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.img3 {
+  height: 130px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  border-radius: 10px;
+}
+
+.img4 {
+  height: 270px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.img5 {
+  height: 280px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  border-radius: 10px;
+}
+
+.img6 {
+  height: 120px;
+  width: 290px;
+  background-color: rgb(160, 153, 153);
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .efficient{
+    font-size: 15px;
+  }
+
+  .gradient-gallery{
+    font-size: 20px;
+ }
+
+ .input3{
+  padding: 5px 10px;
+ }
+
+ .generate-gallery{
+  padding: 5px 15px;
+ }
+
+ .img1{
+  width: 200px;
+ }
+
+ .img2{
+  width: 200px;
+ }
+
+ .img3{
+  width: 200px;
+ }
+
+ .img4{
+  width: 200px;
+ }
+
+ .img5{
+  width: 200px;
+ }
+
+ .img6{
+  width: 200px;
+ }
+
+}
+
+@media screen and (min-width: 460px) and (max-width: 670px) {
+ 
+  .efficient{
+    font-size: 15px;
+  }
+
+  .gradient-gallery{
+    font-size: 20px;
+ }
+
+ .input3{
+  padding: 3px 7px;
+ }
+
+ .generate-gallery{
+  padding: 3px 17px;
+ }
+
+ .galleryimgs{
+  gap: 10px;
+ }
+
+  .img1{
+    width: 140px;
+   }
+  
+   .img2{
+    width: 140px;
+   }
+  
+   .img3{
+    width: 140px;
+   }
+  
+   .img4{
+    width: 140px;
+   }
+  
+   .img5{
+    width: 140px;
+   }
+  
+   .img6{
+    width: 140px;
+   }
+}
+
+@media screen and (min-width: 250px) and (max-width: 459px) {
+  .efficient{
+    font-size: 10px;
+  }
+
+  .gradient-gallery{
+    font-size: 15px;
+ }
+
+ .input3{
+  padding: 2px 5px;
+ }
+
+ .input4{
+  padding: 2px 5px;
+  font-size: x-small;
+ }
+
+ .generate-gallery{
+  padding: 2px 10px;
+  font-size: x-small;
+ }
+
+ .galleryimgs{
+  gap: 5px;
+ }
+
+ .img1{
+  width: 95px;
+ }
+
+ .img2{
+  width: 95px;
+  margin-top: 10px;
+ }
+
+ .img3{
+  width: 95px;
+ }
+
+ .img4{
+  width: 95px;
+  margin-top: 10px;
+ }
+
+ .img5{
+  width: 95px;
+ }
+
+ .img6{
+  width: 95px;
+  margin-top: 10px;
+ }
+}

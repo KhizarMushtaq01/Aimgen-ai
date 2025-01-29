@@ -1,0 +1,182 @@
+
+.form-main-container{
+width: 100%;
+height: 100vh;
+background: rgba(0, 0, 0, 0.747);
+position: fixed;
+z-index: 12;
+left: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Inter", sans-serif;
+}
+
+
+.mainform {
+    max-width: 500px;
+    padding: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    color: white; 
+    position: relative;
+    z-index: 13;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .forminput {
+    margin-bottom: 15px;
+  }
+  
+  .forminput input {
+    width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  
+
+ button.signupbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    background:  linear-gradient(243.53deg, #FF2957 20.02%, #FF7357 80.37%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  
+
+  button.signinbtn{
+    padding: 10px 20px;
+    background:  linear-gradient(243.53deg, #FF2957 20.02%, #FF7357 80.37%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+
+  .btns-combine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .already{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  margin-top: 30px;
+ }
+
+ @media screen and (min-width: 600px) and (max-width: 840px) {
+
+  .form-main-container{
+    width: 80%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.747);
+    position: fixed;
+    z-index: 12;
+    left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  }
+  .mainform {
+    max-width: 500px;
+    padding: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    color: white; 
+    position: relative;
+    z-index: 13;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .forminput input {
+    width: 250px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .btns-combine{
+    gap: 5px;
+  }
+
+  .already{
+    margin-top: 15px;
+  }
+ }
+
+ @media screen and (min-width: 300px) and (max-width: 600px) {
+
+  .form-main-container{
+    width: 65%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.747);
+    position: fixed;
+    z-index: 12;
+    left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  }
+  .mainform {
+    max-width: 250px;
+    padding: 20px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    color: white; 
+    position: relative;
+    z-index: 13;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .forminput input {
+    width: 180px;
+    padding: 8px; 
+    box-sizing: border-box;
+  }
+
+  button.signinbtn{
+    padding: 5px 20px;
+  }
+
+  .btns-combine{
+    gap: 5px;
+  }
+
+  .already{
+    margin-top: 15px;
+    font-size: x-small;
+  }
+  
+ }
+  
+  
+
+
+  

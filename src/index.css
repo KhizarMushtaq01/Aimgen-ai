@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ padding: 0px 10px;
+ background: url("./assets/Union.png") no-repeat;
+    background-color: black;
+}
+
+/* @media screen and (min-width: 1201px) {
+    body{
+        padding: 0px 150px;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+    body{
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (min-width: 535px) and (max-width: 769px) {
+ 
+    body{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 534px) {
+    body{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
+    
+} */

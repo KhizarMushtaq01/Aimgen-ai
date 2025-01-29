@@ -1,0 +1,228 @@
+.How {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.combine3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.BTNs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  background-color: rgb(27, 26, 26);
+  /* width: 170px; */
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  flex-grow: 1;
+}
+
+.BTN1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.BTN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  font-size: 13px;
+  background-color: rgb(27, 26, 26);
+  border-radius: 40px;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid #ff2957;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.concept {
+  color: white;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: first baseline;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.gradient-how {
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Inside auto layout */
+  flex: none;
+  font-size: 40px;
+}
+
+.rating-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conceptpara {
+  color: white;
+  font-size: 15px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 600px;
+}
+
+.next {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 30px;
+  color: white;
+  margin-top: 30px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  cursor: pointer;
+}
+
+.ratingbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+  /* height: 90px; */
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  border: none;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: white;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+
+.fontweight-how {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .combine3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .BTNs {
+    padding: 20px 10px;
+    width: 150px;
+  }
+
+  .BTN1 {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+
+  .BTN {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+
+  .concept {
+    font-size: 25px;
+  }
+
+  .gradient-how {
+    font-size: 30px;
+  }
+
+  .conceptpara {
+    font-size: 12px;
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  .next {
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+
+  .How {
+    margin-top: 10px;
+  }
+  .BTNs {
+    padding: 10px 5px;
+    width: 100px;
+    gap: 3px;
+  }
+
+  .BTN1 {
+    font-size: 6px;
+    padding: 5px 8px;
+  }
+
+  .BTN {
+    font-size: 6px;
+    padding: 5px 8px;
+  }
+
+  .concept {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gradient-how {
+    font-size: 20px;
+  }
+
+  .conceptpara {
+    font-size: 10px;
+    width: 250px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .next {
+    padding: 5px 10px;
+    font-size: 5px;
+    margin-top: 10px;
+  }
+
+  .fontweight-how {
+    font-size: small;
+  }
+}

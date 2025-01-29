@@ -1,0 +1,121 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 100px;
+  /* background-color: black; */
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.logofooter {
+ 
+  color: white;
+  cursor: pointer;
+}
+
+.footerlinks {
+  width: 100%;
+}
+
+.main-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footertext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.innertext {
+  margin: 10px;
+  font-size: small;
+}
+.Input1 {
+  background-color: rgb(27, 26, 26);
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.Input2 {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(27, 26, 26);
+  padding: 5px 5px;
+  width: 100%;
+  outline: none;
+  color: white;
+}
+
+.send {
+  background: linear-gradient(243.53deg, #ff2957 20.02%, #ff7357 80.37%);
+  padding:5px 50px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.copy {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 980px) {
+
+  .heading{
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .innertext{
+    font-size: 10px;
+  }
+  .Input1{
+    padding: 5px 10px;
+  }
+
+  .Input2{
+    padding: 2px 5px;
+    font-size: x-small;
+  }
+  .send{
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+  }
+
+  .footertext{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 50px;
+  }
+
+  .footerlinks{
+    font-size: small;
+    margin: 5px;
+  }
+
+  .copy{
+    font-size: small;
+  }
+}
